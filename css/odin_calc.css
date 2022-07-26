@@ -1,0 +1,41 @@
+body {
+    border: 1px solid gray;
+    padding: 0.5em;
+}
+
+.display {
+    border: 1px solid lightgray;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.previous-display {
+    font: 18px monospace;
+    color: gray;
+    text-align: end;
+    min-height: 18px;
+}
+.current-display {
+    font: 36px monospace;
+    text-align: end;
+    min-height: 36px;
+}
+
+.btn-group {
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+    gap: 0.5em;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
+
+button {
+    padding: 1em;
+    border: none;
+}
+
+.operator, .equals, .clear, .backspace {
+    background-color: lightgray;
+}
