@@ -47,6 +47,10 @@ button {
     border-radius: 10px;
     box-shadow: 2px 2px 2px black;
 }
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
 .number, .decimal {
     background-color: lightgray;
 }
