@@ -19,6 +19,7 @@ body {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
     background-color: whitesmoke;
+    box-shadow: 2px 2px 2px black inset;
 }
 .previous-display {
     font: 1.5rem monospace;
@@ -44,6 +45,7 @@ button {
     padding: 1rem;
     border: none;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
 }
 .number, .decimal {
     background-color: lightgray;
