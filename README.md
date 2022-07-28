@@ -1,1 +1,3 @@
-# calc
+# Calculator
+
+Basic calculator made with HTML/CSS/JavaScript...
