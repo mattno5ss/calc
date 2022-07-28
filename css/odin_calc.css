@@ -26,11 +26,13 @@ body {
     color: gray;
     text-align: end;
     min-height: 2rem;
+    overflow: hidden;
 }
 .current-display {
     font: 3.5rem monospace;
     text-align: end;
     min-height: 4.5rem;
+    overflow: hidden;
 }
 .btn-group {
     display: grid;
