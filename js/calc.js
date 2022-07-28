@@ -48,7 +48,7 @@ function clearCurrent() {
 
 function allClear() {
     previous.textContent = "";
-    current.textContent = "";
+    current.textContent = "0";
     first_num = null;
     second_num = null;
     operator = null;
