@@ -24,12 +24,12 @@ body {
     font: 1.5rem monospace;
     color: gray;
     text-align: end;
-    min-height: 1.5rem;
+    min-height: 2rem;
 }
 .current-display {
     font: 3.5rem monospace;
     text-align: end;
-    min-height: 3.5rem;
+    min-height: 4.5rem;
 }
 .btn-group {
     display: grid;
